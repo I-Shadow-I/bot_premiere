@@ -530,14 +530,14 @@ function time(){
     var msg_channel = client.channels.cache.get("692295165074997258");
     
     
-    if(horaire ==="17:16"){
+    if(horaire ==="18:30"){
         msg_channel.bulkDelete(100);
         msg_channel.bulkDelete(100); 
         msg_channel.bulkDelete(100); 
         
         const embed = new MessageEmbed()
       // Set the title of the field
-      .setTitle('Agenda TSTI2D')
+      .setTitle('Agenda 1STI2D')
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
