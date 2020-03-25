@@ -353,7 +353,7 @@ client.on("message", message =>{
 
             const embed = new MessageEmbed()
       // Set the title of the field
-      .setTitle('Agenda TSTI2D')
+      .setTitle('Agenda 1STI2D')
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
@@ -443,7 +443,7 @@ client.on("message", message =>{
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
-      .setDescription('Ce bot permet de creer un emploi du temps pour les terminales STI2D, pour cela des commandes vous sont données.')
+      .setDescription('Ce bot permet de creer un emploi du temps pour les premiere STI2D, pour cela des commandes vous sont données.')
       .addField("----------------------------",".")
       .addField("Ajouter une heure de cours :","!<jour> <heure de debut> <matière>")
       .addField("<jour>","Les jours sont lundi, mardi, mercredi, jeudi et vendredi. Il ne faut pas mettre de majuscule.")
@@ -468,7 +468,7 @@ client.on("message", message =>{
 
             const embed = new MessageEmbed()
       // Set the title of the field
-      .setTitle('Agenda TSTI2D')
+      .setTitle('Agenda 1STI2D')
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
@@ -532,7 +532,7 @@ function time(){
     if(horaire =="18:30"){
         const embed = new MessageEmbed()
       // Set the title of the field
-      .setTitle('Agenda TSTI2D')
+      .setTitle('Agenda 1STI2D')
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
