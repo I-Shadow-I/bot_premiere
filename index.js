@@ -528,7 +528,7 @@ function time(){
     console.log(day+ ' / ' + h + ':' + m);
 
     var msg_channel = client.channels.cache.get("692295165074997258");
-     msg_channel.send(horaire);
+    
     
     if(horaire ==="18:30"){
         const embed = new MessageEmbed()
