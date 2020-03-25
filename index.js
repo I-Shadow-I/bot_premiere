@@ -611,17 +611,17 @@ function time(){
         if(day=== "lundi"){
         
             if(lundi[0]!= "aucun"){
-                if (horaire==="07:30"){
+                if (horaire==="7:30"){
                 msg_channel.send(`@everyone cours de ` + lundi[0] + " dans 30 min !!!");
                 }
             }
             if(lundi[1]!= "aucun"){
-                if (horaire==="08:30"){
+                if (horaire==="8:30"){
                     msg_channel.send(`@everyone cours de ` + lundi[1] + " dans 30 min !!!");
                     }
             }
             if(lundi[2]!= "aucun"){
-                if (horaire==="09:30"){
+                if (horaire==="9:30"){
                     msg_channel.send(`@everyone cours de ` + lundi[2] + " dans 30 min !!!");
                     }
             }
@@ -663,17 +663,17 @@ function time(){
         if(day=== "mardi"){
         
             if(mardi[0]!= "aucun"){
-                if (horaire==="07:30"){
+                if (horaire==="7:30"){
                     msg_channel.send(`@everyone cours de ` + mardi[0] + " dans 30 min !!!");
                     }
             }
             if(mardi[1]!= "aucun"){
-                if (horaire==="08:30"){
+                if (horaire==="8:30"){
                     msg_channel.send(`@everyone cours de ` + mardi[1] + " dans 30 min !!!");
                     }
             }
             if(mardi[2]!= "aucun"){
-                if (horaire==="09:30"){
+                if (horaire==="9:30"){
                     msg_channel.send(`@everyone cours de ` + mardi[2] + " dans 30 min !!!");
                     }
             }
@@ -715,17 +715,17 @@ function time(){
         if(day=== "mercredi"){
         
             if(mercredi[0]!= "aucun"){
-                if (horaire==="07:30"){
+                if (horaire==="7:30"){
                 msg_channel.send(`@everyone cours de ` + mercredi[0] + " dans 30 min !!!");
                 }
             }
             if(mercredi[1]!= "aucun"){
-                if (horaire==="08:30"){
+                if (horaire==="8:30"){
                     msg_channel.send(`@everyone cours de ` + mercredi[1] + " dans 30 min !!!");
                     }
             }
             if(mercredi[2]!= "aucun"){
-                if (horaire==="09:30"){
+                if (horaire==="9:30"){
                     msg_channel.send(`@everyone cours de ` + mercredi[2] + " dans 30 min !!!");
                     }
             }
@@ -767,17 +767,17 @@ function time(){
         if(day=== "jeudi"){
         
             if(jeudi[0]!= "aucun"){
-                if (horaire==="07:30"){
+                if (horaire==="7:30"){
                 msg_channel.send(`@everyone cours de ` + jeudi[0] + " dans 30 min !!!");
                 }
             }
             if(jeudi[1]!= "aucun"){
-                if (horaire==="08:30"){
+                if (horaire==="8:30"){
                     msg_channel.send(`@everyone cours de ` + jeudi[1] + " dans 30 min !!!");
                     }
             }
             if(jeudi[2]!= `@here cours de `){
-                if (horaire==="09:30"){
+                if (horaire==="9:30"){
                     msg_channel.send(`@everyone cours de ` + jeudi[2] + " dans 30 min !!!");
                     }
             }
@@ -819,17 +819,17 @@ function time(){
         if(day=== "vendredi"){
         
             if(vendredi[0]!= "aucun"){
-                if (horaire==="07:30"){
+                if (horaire==="7:30"){
                 msg_channel.send(`@everyone cours de ` + vendredi[0] + " dans 30 min !!!");
                 }
             }
             if(vendredi[1]!= "aucun"){
-                if (horaire==="08:30"){
+                if (horaire==="8:30"){
                     msg_channel.send(`@everyone cours de ` + vendredi[1] + " dans 30 min !!!");
                     }
             }
             if(vendredi[2]!= "aucun"){
-                if (horaire==="09:30"){
+                if (horaire==="9:30"){
                     msg_channel.send(`@everyone cours de ` + vendredi[2] + " dans 30 min !!!");
                     }
             }
