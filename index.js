@@ -443,7 +443,7 @@ client.on("message", message =>{
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
-      .setDescription('Ce bot permet de creer un emploi du temps pour les premiere STI2D, pour cela des commandes vous sont données.')
+      .setDescription('Ce bot permet de creer un emploi du temps pour les premieres STI2D, pour cela des commandes vous sont données.')
       .addField("----------------------------",".")
       .addField("Ajouter une heure de cours :","!<jour> <heure de debut> <matière>")
       .addField("<jour>","Les jours sont lundi, mardi, mercredi, jeudi et vendredi. Il ne faut pas mettre de majuscule.")
@@ -499,7 +499,7 @@ client.on("message", message =>{
       // Set the color of the embed
       .setColor('#00e4ff')
       // Set the main content of the embed
-      .setDescription('Ce bot permet de creer un emploi du temps pour les terminales STI2D, pour cela des commandes vous sont données.')
+      .setDescription('Ce bot permet de creer un emploi du temps pour les premieres STI2D, pour cela des commandes vous sont données.')
       .addField("Voir l'agenda :","!see")
       .addField("Question/aide :","Pour toute demande (ajouts, idées ...) merci de contacter Cossalter Etienne#8773.")
       .setFooter("Created by Cossalter Etienne#8773")
