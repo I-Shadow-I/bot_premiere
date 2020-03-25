@@ -530,7 +530,11 @@ function time(){
     var msg_channel = client.channels.cache.get("692295165074997258");
     
     
-    if(horaire ==="18:30"){
+    if(horaire ==="17:16"){
+        msg_channel.bulkDelete(100);
+        msg_channel.bulkDelete(100); 
+        msg_channel.bulkDelete(100); 
+        
         const embed = new MessageEmbed()
       // Set the title of the field
       .setTitle('Agenda TSTI2D')
@@ -550,11 +554,11 @@ function time(){
       .addField("__vendredi__","**8h** : " + vendredi[0] + " / " + "**9h** : " + vendredi[1] + " / " + "**10h** : " + vendredi[2] + " / " + "**11h** : " + vendredi[3] + " / " + "**13h** : " + vendredi[4] + " / " + "**14h** : " + vendredi[5] + " / " + "**15h** : " + vendredi[6] + " / " + "**16h** : " + vendredi[7] + " / " + "**17h** : " + vendredi[8]);
     // Send the embed to the same channel as the message
     msg_channel.send(embed);
-        msg_channel.send("@here");
+        msg_channel.send("@everyone");
     }
 
     if((day=== 'vendredi')&&(horaire === "18:30")){
-        lundi[0] = "aucun";
+            lundi[0] = "aucun";
             lundi[1] = "aucun";
             lundi[2] = "aucun";
             lundi[3] = "aucun";
