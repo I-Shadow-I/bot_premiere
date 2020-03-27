@@ -21,7 +21,7 @@ var dl = 1;
 var dma = 1;
 var dme = 1;
 var dj = 1;
-var dv = 0;
+var dv = 1;
 
 
 var semaine = 0;
@@ -597,7 +597,7 @@ function time(){
       .addField("__vendredi__ " + datevendredi[dv],"**8h** : " + vendredi[0] + " / " + "**9h** : " + vendredi[1] + " / " + "**10h** : " + vendredi[2] + " / " + "**11h** : " + vendredi[3] + " / " + "**13h** : " + vendredi[4] + " / " + "**14h** : " + vendredi[5] + " / " + "**15h** : " + vendredi[6] + " / " + "**16h** : " + vendredi[7] + " / " + "**17h** : " + vendredi[8]);
    // Send the embed to the same channel as the message
     msg_channel.send(embed);
-        msg_channel.send("@everyone");
+        msg_channel.send("@Première mise à jour de l'agenda!");
     }
 
     if((day=== 'lundi')&&(horaire === "18:20")){
