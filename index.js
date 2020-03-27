@@ -640,7 +640,7 @@ function time(){
             mercredi[0] = "aucun";
             mercredi[1] = "aucun";
             mercredi[2] = "aucun";
-            mercredi[3] = "aucun";
+            mercredi[3] = "Anglais";
             mercredi[4] = "aucun";
             mercredi[5] = "aucun";
             mercredi[6] = "aucun";
