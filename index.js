@@ -51,6 +51,7 @@ client.on("message", message =>{
     if(!message.guild) return
     if(message.author.bot) return
     if(message.channel.id === `692295317546205204`){
+        var msg_rep = client.channels.cache.get("692295317546205204");
     	if(message.content.startsWith('!mardi')){
             var arg = message.content.split(/ +/g);
             var cmd = arg.shift().toLowerCase
