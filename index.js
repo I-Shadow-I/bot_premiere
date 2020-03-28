@@ -62,7 +62,7 @@ client.on("message", message =>{
 
             if(heure ==="8"){
                 mardi[0] = matière;
-                msg_rep.send('cours de ' + mardi[0] + ' à 8h00, le ' + datemardi[dma];
+                msg_rep.send('cours de ' + mardi[0] + ' à 8h00, le ' + datemardi[dma]);
 
             }
 
