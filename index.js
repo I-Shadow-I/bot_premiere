@@ -6,9 +6,9 @@ var prefix = "/";
 var heure = "";
 var matière ="";
 let lundi = ["aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun"]
-let mardi = ["aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun"]
-let mercredi = ["aucun","aucun","aucun","Anglais","aucun","aucun","aucun","aucun","aucun"]
-let jeudi = ["aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun"]
+let mardi = ["aucun","IT-I2D","aucun","aucun","aucun","Francais","aucun","aucun","aucun"]
+let mercredi = ["aucun","aucun","IT-I2D","Anglais","aucun","aucun","aucun","aucun","aucun"]
+let jeudi = ["aucun","aucun","aucun","aucun","aucun","IT-I2D","aucun","aucun","aucun"]
 let vendredi = ["aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun","aucun"]
 
 let datelundi = ["23/03/2020","30/03/2020","06/04/2020","13/04/2020","20/04/2020","27/04/2020","04/05/2020","11/05/2020","18/05/2020","25/05/2020"];
