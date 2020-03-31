@@ -17,7 +17,7 @@ let datemercredi = ["25/03/2020","01/04/2020","08/04/2020","15/04/2020","22/04/2
 let datejeudi = ["26/03/2020","02/04/2020","09/04/2020","16/04/2020","23/04/2020","30/04/2020","07/05/2020","14/05/2020","21/05/2020","28/05/2020"];
 let datevendredi = ["27/03/2020","03/04/2020","10/04/2020","17/04/2020","24/04/2020","01/05/2020","08/05/2020","15/05/2020","22/05/2020","29/05/2020"];
 
-var dl = 1;
+var dl = 2;
 var dma = 1;
 var dme = 1;
 var dj = 1;
@@ -599,8 +599,6 @@ function time(){
    // Send the embed to the same channel as the message
     msg_channel.send(embed);
         
-        var mention = message.guild.roles.cache.get("689154217910206542");
-        msg_channel.send(`${mention} mise à jour de l'agenda!`);
     }
 
     if((day=== 'lundi')&&(horaire === "18:20")){
